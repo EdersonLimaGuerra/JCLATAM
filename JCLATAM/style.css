@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #FFFDFD 0%, rgba(255, 255, 255, 0.52) 100%);
+}
+
+nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.19);
+    margin-top: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: center;  
+    font-size: 25px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+ul, a {
+    text-decoration: none;
+}
+a {
+    margin: 0 1.7em;
+    color: black;
+    size: 200px;
+}
+
+h2 {
+    margin-top: 7%;
+    display: flex;
+    color: #145DA0;
+    font-size: 5em;
+    justify-content: center;
+    text-align: center;
+}
+
+.cuatro {
+    display: flex;
+    margin-top: -3%;
+    display: flexbox; /* Esto parece un error, debería ser flex-box o flexbox */
+}
+
+.TextoPrincipal h3 {
+    display: flex;
+    color: #DC7726;
+    font-size: 3.3em;
+    text-align: center;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 3em; /* Ajusta el tamaño para pantallas más pequeñas */
+    }
+
+    h3 {
+        font-size: 2em; /* Ajusta el tamaño para pantallas más pequeñas */
+    }
+}
+
+.somos {
+    display: flex;
+    background-color: #FFBC39;
+    margin-top: auto;
+    margin: 20px;
+    padding: 250px;
+    border-radius: 25px;
+    position: relative; /* Agregamos posición relativa */
+}
+
+.somos h3 {
+    display: flex;
+    color: black;
+    font-size: 45px;
+    position: absolute; /* Agregamos posición absoluta */
+    top: 20px; /* Ajustamos la posición desde arriba según sea necesario */
+    left: 80px; /* Ajustamos la posición desde la izquierda según sea necesario */
+}
+.sobre {
+    display: flex;
+    background-color: #FFBC39;
+    margin-top: auto;
+    margin: 20px;
+    padding: 250px;
+    border-radius: 25px;
+    position: relative; /* Agregamos posición relativa */
+}
+
+.sobre h3 {
+    display: flex;
+    color: black;
+    font-size: 45px;
+    position: absolute; 
+    top: 20px; 
+    left: 80px; 
+}
+

@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #FFFDFD 0%, rgba(255, 255, 255, 0.52) 100%);
+}
+
+nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.19);
+    margin-top: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: center;  
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+ul, a {
+    text-decoration: none;
+}
+
+a {
+    margin: 0 1.7em;
+    color: black;
+}
+
+.carrusel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carrusel div {
+    flex: 0 0 100%;
+}
+
+.Trdigital, .Auto, .Redes {
+    padding: 20px;
+    text-align: center;
+    background: #FFF;
+    border-radius: 20px;
+    
+    transition: transform 0.3s ease-in-out;
+}
+
+.carrusel p {
+    font-size: 24px;
+}
+
+.flecha {
+    font-size: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+#anterior {
+    left: 20px;
+}
+
+#siguiente {
+    right: 20px;
+}

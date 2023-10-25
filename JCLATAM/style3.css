@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    margin-top: 0;
+    background: linear-gradient(180deg, #FFFDFD 0%, rgba(255, 255, 255, 0.52) 100%);
+}
+html{
+    scroll-behavior:inherit;
+}
+.container-fluid{
+    width: auto;
+    height: auto;
+    
+    color: #000;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    margin: 0 5em;
+    
+}
+.container-fluid a{
+    
+    margin-right: 1.3em;
+    color: #000;
+    
+
+}
+
+.textoprin h2{
+    padding: 60px;
+}
+.text-center h2{
+    padding: 50px;
+}
+.carousel-inner{
+    
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 103, 179, 0.82);
+}
+.card-body{
+    max-width: 900px; 
+    max-height: 900px;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+.container{
+    
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 103, 179, 0.82);
+    padding: 20px;
+    
+}
+
+.sobrenosotros{
+    
+    padding: 250px;
+    border-radius: 25px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 103, 179, 0.82);
+    padding: 20px;
+}
+.nuestroservicios{
+
+    border-radius: 25px;
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    border-color: #FAC12F;
+    box-shadow: 0px 4px 4px 0px #FAC12F;
+    
+}
+.nuestrosclientes{
+    border-radius: 25px;
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    border-color: #FAC12F;
+    box-shadow: 0px 4px 4px 0px #FAC12F;
+    
+}
+.div2{
+    margin: 95px;
+}
+.div1{
+    margin: 90px;
+}
+.div3{
+    margin: 95px;
+}
+
+
+
+.carousel-control-prev-icon{
+    background-color: blue;
+    
+}
+.buton1{
+    background-color: blue;
+    
+}
+.boton2{
+    background-color: blue;
+    border: none;
+}
+.redes{
+    padding: 15px;
+    max-width: 200px; 
+    max-height: 200px;
+}
+.redes2{
+    padding: 10px;
+    max-width: 80px; 
+    max-height: 80px;
+}
+.redes3{
+   
+    width: 30px; 
+    height: 30px;
+}
+.clientes{
+    padding: 20px;
+    max-width: 150px; 
+    max-height: 150px;
+}
+.div2{
+    padding: 5px;
+}
+.carta:hover {
+    background-color:#FAC12F;
+    transition: background-color 0.3s ease; 
+  }
+  
+
+
